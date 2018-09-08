@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+header{
+	background-color: steelblue;
+
+}
+.header-container{
+	width: 1100px;
+	height: 70px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.image-wrapper{
+	float: left;
+	display: inline-block;
+}
+.nav-logo-image{
+	height: 70px;
+	line-height: 70px;
+}
+.nav-list{
+	float: right;
+	line-height: 70px;
+	list-style: none;
+}
+.nav-list-item{
+	display: inline-block;
+	text-align: right;
+	font-size: 16px;
+	color: #fafafa;
+	padding: 0 30px;
+}
+a{
+	font-size: 16px;
+	color: #fafafa;
+	text-decoration: none;
+}
+
+.main-visual{
+	width: 100%;
+	height: 600px;
+	padding-top: 50px;
+	background-image: url(img/top.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.main-visual-subtitle{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 64px;
+	font-family: cursive;
+	color: #fafafa;
+}
+.main-visual-title{
+	text-align: center;
+	padding-top: 60px;
+	font-size: 128px;
+	font-family: fantasy;
+	color: #fafafa;
+}
+.main-visual-subtitle2{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 30px;
+	font-family: cursive;
+	color: #fafafa;
+}
+
+
+.concept{
+	width: 100%;
+	height: 800px;
+	margin-top: 20px;
+	padding-top: 50px;
+	background-image: url(img/concept.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.concept-wrapper, .new-value-wrapper, .profile-wrapper{
+	width: 1200px;
+	border-radius: 20px;
+	margin: 0 auto;
+	background-color: white;
+	opacity: 0.7;
+}
+.concept-title, .new-value-title, .profile-title, .contact-title{
+	font-size: 50px;
+	font-family: cursive;
+	color: #000000;
+	padding-top: 60px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+.concept-text{
+	font-size: 30px;
+	font-family: monospace;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+.concept-title::after{
+	width: 100px;
+	height: 3px;
+	background-color: #ec715f;
+	display: block;
+	content: "";
+	margin: 0 auto;
+}
+.concept-box{
+	width: 600px;
+	margin: 0 auto;
+}
+.icon-box{
+	width: 160px;
+	float: left;
+}
+.text-box{
+	width: 440px;
+	float: left;
+}
+
+.concept-box-title{
+	font-size: 30px;
+}
+.concept-box-text{
+	font-size: 12px;
+	height: 100px
+}
+.fa-app-store-ios{
+	font-size: 100px;
+}
+.fa-amazon{
+	font-size: 100px;
+}
+.fa-slack-hash{
+	font-size: 100px;
+}
+
+
+.new-value{
+	width: 100%;
+	height: 800px;
+	margin-top: 20px;
+	padding-top: 50px;
+	background-image: url(img/new-value.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.new-value-title::after{
+	width: 100px;
+	height: 3px;
+	background-color: #ec715f;
+	display: block;
+	content: "";
+	margin: 0 auto;
+}
+.new-value-text{
+	font-size: 30px;
+	font-family: monospace;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.new-value-box{
+	width: 350px;
+	margin: 0 25px 50px 25px;
+	float: left;
+	border: dotted 1px gray;
+
+}
+
+.new-value-box-title{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+.new-value-box-text{
+	font-size: 12px;
+	margin: 0 8px;
+}
+.fa-allergies{
+	display: block;
+	text-align: center;
+	font-size: 100px;
+}
+.fa-american-sign-language-interpreting{
+	display: block;
+	text-align: center;
+	font-size: 100px;
+}
+
+.fa-assistive-listening-systems{
+	display: block;
+	text-align: center;
+	font-size: 100px;
+}
+
+.profile{
+	width: 100%;
+	height: 800px;
+	margin-top: 20px;
+	padding-top: 50px;
+	background-image: url(img/profile.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.profile-title::after{
+	width: 100px;
+	height: 3px;
+	background-color: #ec715f;
+	display: block;
+	content: "";
+	margin: 0 auto;
+}
+
+.profile-text{
+	font-size: 30px;
+	font-family: monospace;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+.profile-image{
+	border-radius: 200px;
+	width: 250px;
+	height: 250px;
+	margin-left: 150px;
+}
+
+.profile-box1{
+	float: left;
+}
+.profile-box2{
+	float: left;
+	padding-left: 100px;
+}
+
+
+.skills{
+	margin-bottom: 100px;
+}
+
